@@ -15,4 +15,13 @@ function trackInt(){
     else if(length1 !== length2 && length2 == length3){
     alert ("isocseles")
     }
+    else if(length3 !== length2 && length2 == length1){
+      alert ("isocseles")
+      }
+    else if(length1 !== length2 && length2 !== length3 && length3 !== length1){
+      alert ("Scalene")
+      }
+    else if(length1 >= length2 || length2 >= length3 || length3 >= length1){
+      alert("Not a triangle")
+      }
 }
