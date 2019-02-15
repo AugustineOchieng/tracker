@@ -1,6 +1,6 @@
 body{
   background-color: #ACFCD9;
-  color: black;
+  color: black; 
   font-family: 'Poiret One', cursive;
   font-weight: 500px;
 }
@@ -9,11 +9,5 @@ body{
   margin-top: 10%;
 }
 p{
-  font-family:  'Prociono', serif;
-}
-#table{
-  border: 10px #FFE8E1;
-  padding: 5%;
-  background-color: #FFE8E1;
-  color: #190933; 
+  font-family: 'Prociono', serif;
 }
