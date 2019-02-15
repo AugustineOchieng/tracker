@@ -9,4 +9,10 @@ function trackInt(){
   length2 = entry002 + entry003
   lenght3 = entry003 + entry001
   //control flow
+  if(length1 == length2 && length2 == length3 && length3 == length1){
+    alert ("equilateral")
+    }
+    else if(length1 !== length2 && length2 == length3){
+    alert ("isocseles")
+    }
 }
