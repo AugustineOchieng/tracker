@@ -4,3 +4,10 @@ body{
   font-family: 'Poiret One', cursive;
   font-weight: 500px;
 }
+#position{
+  text-align: center;
+  margin-top: 10%;
+}
+p{
+  font-family:  'Prociono', serif;
+}
