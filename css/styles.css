@@ -1,16 +1,40 @@
-body{
-  background-color: #ACFCD9;
-  color: black; 
+.darken{
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ),
+  url("http://tassepatufutsal.com/wp-content/uploads/2018/05/geometric-graphic-design-usage-of-geometric-shapes-in-graphic-design-articles-graphic-download-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; 
   font-family: 'Poiret One', cursive;
   font-weight: 500px;
 }
+b{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background: inherit;
+  background-attachment: fixed;
+  height: 100%;
+}
 #position{
   text-align: center;
-  margin-top: 10%;
+  margin-top: 0%;
 }
 p{
   font-family: 'Prociono', serif;
 }
-img{
-  width: auto;
+.type{
+color: white;
+
 }
+h1{
+  font-family: 'Righteous', cursive;
+  text-align: center;
+}
+
+
