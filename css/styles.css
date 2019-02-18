@@ -1,40 +1,51 @@
-.darken{
-  background-image: 
-  linear-gradient(
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)
-  ),
-  url("http://tassepatufutsal.com/wp-content/uploads/2018/05/geometric-graphic-design-usage-of-geometric-shapes-in-graphic-design-articles-graphic-download-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white; 
+body{
+  background-color: #ACFCD9;
+  color: black; 
   font-family: 'Poiret One', cursive;
   font-weight: 500px;
-}
-b{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 10px;
-  background: inherit;
-  background-attachment: fixed;
-  height: 100%;
+  margin-top: 15%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 #position{
-  text-align: center;
-  margin-top: 0%;
-}
-p{
-  font-family: 'Prociono', serif;
-}
-.type{
-color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #886176; 
+  padding: 30px;
+  box-sizing: border-box;
+  border-style: none;
+  border-radius: 5px 20px 5px;
+  background: #BADA55;
+  box-shadow: #616161;
+  
 
 }
-h1{
-  font-family: 'Righteous', cursive;
-  text-align: center;
+#button001{
+  border-bottom-left-radius: 15px;
+  background: #CDD3CE;
+  color: white;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 20px;
+  text-decoration: none;
+  text-shadow: -1px -1px 1px #616161;
+  position: relative;
+  padding: 15px 30px;
+  -webkit-box-shadow: 5px 5px 0 #666;
+  -moz-box-shadow: 5px 5px 0 #666;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  margin: 0 10px 0 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none
+
 }
 
+  
+}
 

@@ -22,7 +22,7 @@ Everyone interested is most welcome to fork this code and modify it for updates.
 In case of any inconvenience experienced reach out to me through my email address: gusochieng@gmail.com
 ##Behaviour Driven Development
 | Expected   Behaviour              | Input                             | Output               |
-|----------------------------------|----------------------------------|---------------------|
+|---------------------------------- |---------------------------------- |--------------------- |
 | Determine an equilateral triangle | All sides equal                  | Equilateral triangle |
 | Determine an Isocseles triangle   | Two sides equal                   | Isocseles triangle   |
 | Determine a scalene triangle      | All sides different               | Scalene triangle     |
