@@ -1,0 +1,77 @@
+//create a function
+function trackInt(){
+  //create variables
+  input001 = parseInt(document.getElementById("triangleValue1").value)
+  input002 = parseInt(document.getElementById("triangleValue2").value)
+  input003 = parseInt(document.getElementById("triangleValue3").value)
+  //input sides
+  length1 = input001 + input002
+  length2 = input002 + input003
+  length3 = input003 + input001
+  //control flow 
+    if(length1 == length2 && length2 == length3 && length3 == length1){
+    alert("An equilateral triangle")
+    }
+    else if(length1 !== length2 && length2 == length3){
+    alert("An iscosceles triangle")
+    }
+    else if(length3 !== length2 && length2 == length1){
+    alert("An iscosceles triangle")
+    }
+    else if(length1 !== length2 && length2 !== length3 && length3 !== length1){
+    alert("A scalene triangle")
+    }
+    else if(length1 >= length2 || length2 >= length3 || length3 >= length1){
+    alert("Not a triangle")
+    }
+  }
+
+  body{
+  background-color: #ACFCD9;
+  color: black; 
+  font-family: 'Poiret One', cursive;
+  font-weight: 500px;
+  margin-top: 15%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#position{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #886176; 
+  padding: 30px;
+  box-sizing: border-box;
+  border-style: none;
+  border-radius: 5px 20px 5px;
+  background: #BADA55;
+  box-shadow: #616161;
+  border-style: outset;
+  
+
+}
+#button001{
+  border-bottom-left-radius: 15px;
+  background: #CDD3CE;
+  color: white;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 20px;
+  text-decoration: none;
+  text-shadow: -1px -1px 1px #616161;
+  position: relative;
+  padding: 15px 30px;
+  margin: 0 10px 0 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none
+
+}
+#button001{
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
