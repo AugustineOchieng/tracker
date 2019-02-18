@@ -21,6 +21,11 @@ Google Fonts
 Everyone interested is most welcome to fork this code and modify it for updates.
 In case of any inconvenience experienced reach out to me through my email address: gusochieng@gmail.com
 ##Behaviour Driven Development
+|_Expected__Behaviour              |______Input_______________        |______Output_________|
+|Determine an equilateral triangle | All sides equal                  |Equilateral triangle |
+|Determine an Isocseles triangle   |Two sides equal                   |Isocseles triangle   |
+|Determine a scalene triangle      |All sides different               |Scalene triangle     |
+|Determine if not a triangle at all|Sum of two sides greater than one |Not a triangle       |
 
 ### License
 *MIT License*
