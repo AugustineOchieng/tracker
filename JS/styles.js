@@ -10,16 +10,16 @@ function trackInt(){
   length3 = input003 + input001
   //control flow 
     if(length1 == length2 && length2 == length3 && length3 == length1){
-    alert ("equilateral")
+    alert("An equilateral triangle")
     }
     else if(length1 !== length2 && length2 == length3){
-    alert ("isocseles")
+    alert("An iscosceles triangle")
     }
     else if(length3 !== length2 && length2 == length1){
-    alert ("isocseles")
+    alert("An iscosceles triangle")
     }
     else if(length1 !== length2 && length2 !== length3 && length3 !== length1){
-    alert ("Scalene")
+    alert("A scalene triangle")
     }
     else if(length1 >= length2 || length2 >= length3 || length3 >= length1){
     alert("Not a triangle")
