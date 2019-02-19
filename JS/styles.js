@@ -4,7 +4,11 @@ function trackInt(){
   input001 = parseInt(document.getElementById("triangleValue1").value)
   input002 = parseInt(document.getElementById("triangleValue2").value)
   input003 = parseInt(document.getElementById("triangleValue3").value)
+  if((input001 + input002 > input003)&&(input002 + input003 > input001)&& (input003 + input001 > input002)){
+
   //input sides
+  
+  
   length1 = input001 + input002
   length2 = input002 + input003
   length3 = input003 + input001
@@ -21,7 +25,8 @@ function trackInt(){
     else if(length1 !== length2 && length2 !== length3 && length3 !== length1){
     alert("A scalene triangle")
     }
-    else if(length1 >= length2 || length2 >= length3 || length3 >= length1){
+  } 
+    else{
     alert("Not a triangle")
     }
   }
